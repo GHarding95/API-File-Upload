@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+input{
+  margin: 0 0 20px 0;
+}
+
+.api-box{
+  height: auto;
+  background: #fff;
+  padding: 40px 40px 0 40px!important;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: auto;
+}
+
+@media (max-width: 500px){
+  .api-box{
+    display: inline-block;
+    width: 320px;
+  }
+
+}
+
+h1{
+  color: #fff!important;
+  font-size: 40px;
+}
+
+@media (max-width: 768px){
+  h1{
+    font-size: 35px;
+  }
+}
+
+p{
+  font-size: 16px;
+}
+
+.tc{
+  text-align: center;
+}
+
+#file-upload{
+  display: none;
+}
+
+.dragdrop{
+  color: grey;
+  border: 4px dashed grey;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dragdrop:hover{
+  color: #000;
+  border: 4px dashed #000;
+}
+
+.dragdrop > p{
+  pointer-events: none;
+  padding: 40px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.drag-over{
+  color: #000;
+  border: 4px dashed #000;
+}
+
+.upload-btn-container{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+.upload-btn-container > button {
+  padding: 10px 15px 10px 15px;
+}
+
+button{
+  font-size: 18px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn-history{
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  font-size: 18px;
+  font-family: 'Poppins';
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn-history:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+.success{
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.error{
+  font-family: 'Poppins';
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.api-container{
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+.api-container > label{
+  padding-right: 10px;
+}
+
+#api-selector {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.2s;
+  cursor: pointer;
+}
+
+#api-selector:hover {
+  border-color: #666;
+}
+
+#api-selector:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.history-container{
+  text-align: center;
+}
+
+.dropdown-container:hover{
+  cursor: pointer;
+}
+
+.upload-history{
+  text-align: left;
+  padding: 20px;
+}
+
+.showFiles{
+  margin-top: 15px;
+  font-weight: 600;
+  width: 100%;
+}
+
+@media (min-width: 550px){
+.container{
+    max-width: 600px!important;
+  }
+  .history-container{
+    max-width: 720px!important;
+  }
+}
+
+.message {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+.loading{
+  margin: 40px 10px 0px 10px;
+}

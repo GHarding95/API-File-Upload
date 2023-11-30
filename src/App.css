@@ -1,0 +1,21 @@
+.App {
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #1d9ad7 ;
+  background: linear-gradient(to top left, #82d5ff  0%, #1d9ad7 100%);
+  caret-color: transparent;
+  overflow-y: auto;
+  font-family: 'Poppins';
+}
+
+.content-container {
+  max-height: 100vh;
+  overflow-y: auto;
+  width: 100%;
+  padding: 20px;
+}
