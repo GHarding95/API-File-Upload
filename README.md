@@ -22,3 +22,6 @@ npm install
 ## To Run
 
 npm start
+
+![Capture1](https://github.com/GHarding95/API-File-Upload/assets/59471231/3b45feaa-915f-4d17-b541-c9962395b246)
+![Capture2](https://github.com/GHarding95/API-File-Upload/assets/59471231/d295151a-fb2f-46a9-a870-261783ecc09f)
